@@ -3,6 +3,9 @@ import React, { Component } from "react";
 class SignUp extends Component {
     render() {
         return (
+        
+    // <div className="auth-wrapper">
+        <div className="auth-inner">
             <form>
                 <h3>Sign Up</h3>
 
@@ -27,10 +30,12 @@ class SignUp extends Component {
                 </div>
 
                 <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
-                <p className="forgot-password text-right">Already registered sign in?
-                    {/* Already registered <a href="#">sign in?</a> */}
+                <p className="forgot-password text-right">
+                    Already registered?  <a href="/sign-in">Sign in</a>
                 </p>
             </form>
+        </div>
+    // </div>
         );
     }
 }

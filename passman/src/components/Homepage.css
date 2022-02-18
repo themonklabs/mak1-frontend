@@ -1,0 +1,13 @@
+.boxHomePage {
+    display: flex;
+    
+  }
+.boxLogin {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+.boxSignup {
+    display: flex;
+    flex-direction: row-reverse;    
+  }
