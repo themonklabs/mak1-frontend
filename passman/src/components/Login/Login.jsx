@@ -4,6 +4,8 @@ class Login extends Component {
     state = {  } 
     render() { 
         return (
+    <div className="auth-wrapper">
+        <div className="auth-inner">
             <form>
                 <h3>Sign In</h3>
 
@@ -28,7 +30,13 @@ class Login extends Component {
                 <p className="forgot-password text-right">Forgot password?
                     {/* Forgot <a href="#">password?</a> */}
                 </p>
+                <p className="forgot-password text-right">
+                     <a href="/sign-up">Don't Have an account?</a>
+                </p>
+
             </form>
+        </div>
+    </div>
         );
     }
 }

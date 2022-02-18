@@ -24,12 +24,12 @@ function NavBar(){
                      {MenuItems.map((item,index)=>{
                         return ( 
                         <li key={index} className='nav-item' role="presentation">
-                            <i className={item.cName}> &nbsp;
+                            {/* <i className={item.cName}> &nbsp;
                             {item.title}
-                            </i> 
-                            {/* <a className={item.cName} href={item.url}> &nbsp;
+                            </i>  */}
+                            <a className={item.cName} href={item.url}> &nbsp;
                             {item.title}
-                            </a>  */}
+                            </a> 
                         </li>)
                     })}
                    
